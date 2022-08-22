@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceroot}/name", 
+            "preLaunchTask": "test",
+            "internalConsoleOptions": "openOnsessionstart",
+            "logging": {
+                "moduleLoad": false,
+                "programOutput": true,
+                "trace": false
+            },
+            "showDisplaystring": false,
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceroot}",
+            "environment": [],
+            "externalConsole": true, 
+            "osx": {
+                "MIMode": "lldb"
+            }
+        }
+    ]
+}
